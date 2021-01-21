@@ -14,24 +14,26 @@
  * ***** Area - pi * r * r;
  * ******************************************/
 #include<stdio.h>
+
 int main(){
     // Assuming the inputs are in int
     int length, breadth, radius;
     int area_of_rectangle, perimeter_of_rectangle;
     float area_of_circle, perimeter_of_circle;
-
+    
     printf("Enter length of Rectangle:");
-    scanf("%d\n", &length);
+    scanf("%d", &length);
     printf("Enter breadth of Rectangle:");
-    scanf("%d\n", &breadth);
+    scanf("%d", &breadth);
     printf("Enter Radius of Circle:");
-    scanf("%d\n",&radius);
+    scanf("%d",&radius);
 
     // Calculations for Rectangle
     area_of_rectangle = length * breadth;
     perimeter_of_rectangle = 2 * (length + breadth);
 
     // Calculations for Circle
+    // TODO: Need to use PI value from math.h
     area_of_circle = 3.14 * radius * radius;
     perimeter_of_circle = 2 * 3.14 * radius;
 
