@@ -59,6 +59,10 @@ int main(){
 
     // }
 
+
+    // if else if
+    // if(){} else if(){}
+    //
     // Nested if else
     // persons age is greater than 50 and less than 60 and salary is 25000 then print yes else if salary is 50000 print Awesome else print Blahhhh
     // if(age > 50){ 
@@ -102,5 +106,10 @@ int main(){
     //     // BAd
     // }
 
+    // Trick 1 - print your name without semicolon
+    if(printf("Kajal")){
+
+    }
+    
     return 0;
 }

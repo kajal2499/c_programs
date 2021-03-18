@@ -1,4 +1,4 @@
-####################################
+#
 # Decision Control
 #
 # e.g if it rains then we are going to the park else we will stay in home
@@ -38,4 +38,9 @@
 # 1  0
 # C operator (!)
 # e.g !A , !B
-####################################
+#
+# Assertions
+# 1st Assertion - Every non zero vale will be treated as true in C
+# 2nd Assertion - if any of the value is true (||) will result true
+# 3rd Assertion - if both values are true (&&) will result true
+#
