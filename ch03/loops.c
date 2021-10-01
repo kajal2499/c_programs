@@ -50,7 +50,7 @@ int main(){
 
             printf("Ganesh");   // 5 * 5 = 25 // n * n = n^2 (Complexity Time )
         }
-
+            
     }
 
 
